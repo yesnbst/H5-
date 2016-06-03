@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>长按选中区域复制</title>
+	<meta name="viewport" content="width=device-width,initial-scale-1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="copy.css">
+</head>
+
+<body>
+	<div id="keyword-box">
+		<img id="keyword-img" alt="" src="copy.png">
+		<div id="keyword-mask"></div>
+	    <div id="keyword">
+	        <span>长按复制看看</span>
+	    </div>
+	</div>
+
+	<p class="href">
+		<a href="http://yesnbst.com/Arts/detail/artId/124" title="yesnbst">来源于 —— yesnbst</a>
+	</p>
+	<p>长按虚线框，复制</p>
+	<p>使用iPhone Safari浏览器访问该链接，扫描以下二维码</p>
+	<p>
+		<img src="code.png" alt="yesnbst">
+	</p>
+	
+	<script src="zepto.min.js"></script>
+	<script src="yesnbst.min.js"></script>
+	<script src="yesnbst.detail.min.js"></script>
+</body>
+<script>
+	$(document).ready(function(){
+		$("#keyword-box").on("copy", function(){
+			
+		})
+	})
+</script>
+</html>
+

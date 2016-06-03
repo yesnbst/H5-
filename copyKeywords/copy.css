@@ -1,0 +1,65 @@
+#keyword-box, .hint, .ranking {
+    text-align: center
+}
+#keyword-box {
+    position: relative;
+    margin: 0 auto
+}
+#keyword-img, #keyword-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block
+}
+#keyword-img {
+    z-index: 9;
+    -webkit-user-select: none
+}
+
+#keyword-box {
+    position: relative;
+    margin: 0 auto
+}
+
+#keyword-mask {
+    z-index: 99
+}
+
+#keyword-img {
+    z-index: 9;
+    -webkit-user-select: none
+}
+
+#keyword {
+    font-size: .9rem;
+    -webkit-user-select: element;
+    color: #666;
+    display: inline-block;
+    border: 1px dashed #F00;
+    margin: 0 auto
+}
+
+#keyword span {
+    display: block;
+    font-size: 18px;
+    margin: 10px 25px
+}
+p {
+    text-align: center;
+}
+.href a {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    text-decoration: underline;
+}
+p img {
+    margin: 0 auto;
+    display: block;
+    width: 220px;
+}
+
+
+
+
+
